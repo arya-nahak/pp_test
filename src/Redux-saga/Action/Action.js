@@ -14,3 +14,20 @@ export const Failure = (payload) => ({
   type: "FAILURE",
   payload
 })
+
+
+
+export const aQRequest = (payload) => ({
+  type: "ADFREQUEST",
+  payload
+})
+
+export const aQSuccess = (payload) => ({
+  type: "ADFSUCCESS",
+  payload
+})
+
+export const aQFailure = (payload) => ({
+  type: "ADFFAILURE",
+  payload
+})
